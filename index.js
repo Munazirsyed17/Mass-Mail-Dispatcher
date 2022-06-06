@@ -55,7 +55,7 @@ function sendEmail() {
         Host: "smtp.elasticemail.com",
         Username: "munazirsyed17@gmail.com", //change
         Password: "CCE1E372F924481C306566E688C9544A4EDA",  // app password //change
-        To: 'munazirsyed17@gmail.com',
+        To: String(Window.valMail),
         From: "munazirsyed17@gmail.com",
         Subject: document.querySelector('#subject').value,
         Body: document.getElementById('msg').value
